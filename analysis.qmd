@@ -1,0 +1,197 @@
+---
+title: "UNICEF Assignment"
+subtitle: Global Sanitation Access Analysis - 2024
+author: Sri Hari Venkata Sai Bharadwaj Ganti - 14723
+date: last-modified
+date-format: "MM-DD-YYYY"
+format:
+   html:
+     embed-resources: true
+     theme: lumen
+     smooth-scroll: true
+     font-family: Roboto
+     toc: true
+     toc-title: Report Contents
+     toc-depth: 3
+     toc-location: right
+     code-fold: true
+     code-line-numbers: true
+     code-tools: true
+     code-link: true
+     code-highlight-style: monokai
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+# Report Summary
+
+This report highlights global disparities in access to basic sanitation facilities and explores their critical link to public health and economic outcomes.
+
+Data for this analysis has been sourced from UNICEF’s global sanitation datasets, covering 2000 to 2020 across multiple countries.
+
+
+The color palette uses **blue shades** to represent higher access to sanitation facilities, and **red shades** to highlight areas with poor or limited sanitation coverage.
+
+---
+
+# Key Highlights
+
+- **Global Progress:**  
+  Significant improvements in access to basic sanitation have been recorded worldwide between 2000 and 2020, indicating steady global progress toward the Sustainable Development Goals (SDGs).
+
+- **Regional Disparities:**  
+  Despite overall progress, severe regional disparities persist — particularly in Sub-Saharan Africa and parts of South Asia — where sanitation access remains critically low compared to global averages.
+
+- **Persistent Challenges:**  
+  Certain low-income countries have shown minimal growth in sanitation infrastructure, emphasizing the urgent need for targeted humanitarian and development interventions.
+
+- **Two-Decade Trend Analysis:**  
+  A comparative analysis over 20 years reveals that although global sanitation access has improved, **more than 40 countries** still report sanitation coverage below 50%, posing significant public health risks.
+
+- **Link to Economic Development:**  
+  A strong positive correlation was observed between rising sanitation access rates and indicators of economic development, underscoring the role of infrastructure investment in improving quality of life.
+
+- **Impact of Population Growth:**  
+  Rapid population growth, particularly in developing regions, has intensified the challenge of achieving universal sanitation access, highlighting the importance of scalable and sustainable solutions.
+
+# Global Sanitation Access Analysis
+
+## Global Distribution
+
+The world map below visualizes the percentage of population with access to basic sanitation services globally:
+
+![Global distribution of sanitation access](figures/world_map.svg)
+
+**Actionable Insights:**
+![Year-Over-Year Changes](figures/yoy_analysis.svg)
+- **Developed regions** (e.g., Europe, North America, Australia) show sanitation access rates exceeding **90%**.
+- **Sub-Saharan Africa** and parts of **South Asia** continue to struggle, with access rates often below **50%**.
+- Geographic clustering of low-access areas highlights where **international aid and policy focus** are urgently needed.
+- **Middle-income countries** show uneven patterns, suggesting **urban-rural disparities** that require tailored solutions.
+
+---
+
+## Regional Trends Analysis
+
+The regional trends chart highlights sanitation access distribution across different global regions:
+
+![Distribution of sanitation access](regional_trends.png)
+
+**Key Observations:**
+- **Wide gaps** exist between regions — with **Sub-Saharan Africa** significantly trailing other regions.
+- **East Asia and Pacific** show impressive growth towards near-universal sanitation.
+- **Latin America** demonstrates a strong middle-tier performance but with notable outliers.
+- Regional clustering suggests that **regional strategies** (not one-size-fits-all) are essential for progress.
+
+---
+
+## Temporal Trends
+
+The time-series chart demonstrates the evolution of global sanitation access between 2000 and 2020:
+
+![Global sanitation access trends](time_series.png)
+
+**Key Findings:**
+- A **steady upward trend** is observed globally over the two decades.
+- Periods of **accelerated progress** are seen post-2010, coinciding with global sanitation initiatives.
+- **Recent years** (2015–2020) show slower progress, likely influenced by emerging crises (e.g., COVID-19, economic instability).
+- Emphasizes the need for **resilience strategies** to maintain momentum even during global disruptions.
+
+---
+
+## Current State and Latest Trends
+
+The latest snapshot comparing recent country-level performance:
+
+![Latest year sanitation access snapshot](time_series_latest.png)
+
+**Insights:**
+- **Over 40 countries** still report sanitation access below **50%**.
+- **Notable improvements** in South-East Asia and parts of North Africa, nearing **universal access**.
+- Identifies **critical countries** that require prioritized interventions based on most recent data.
+
+---
+
+## Vulnerability Index Analysis
+
+The vulnerability index plot shows countries most at risk due to poor sanitation access:
+
+![Vulnerability index analysis](figures/vulnerability_index.svg)
+
+**Critical Insights:**
+- **High vulnerability** is concentrated in low-income and fragile states.
+- These regions often face a combination of **economic fragility**, **political instability**, and **low sanitation access**.
+- Highlights the **intersectionality** of sanitation access with broader human development challenges.
+- Suggests **targeted, multisectoral interventions** beyond just sanitation infrastructure.
+
+---
+
+## Gap Analysis: Top vs Bottom Performers
+
+The gap analysis visualization contrasts the highest and lowest performers globally:
+
+![Top and bottom countries gap analysis](figures/gap_analysis.svg)
+
+**Detailed Observations:**
+- The **top 10 countries** consistently maintain access rates above **95%**.
+- The **bottom 10 countries** remain below **40%**, showing limited progress over two decades.
+- Countries with the greatest improvement demonstrate that **focused government policies** and **external partnerships** (e.g., NGO support) are effective.
+
+---
+
+# Conclusions and Recommendations
+
+## Key Findings
+
+1. **Global Progress:**  
+   - Global sanitation access has improved steadily from 2000 to 2020.
+   - Positive correlation between access levels and indicators like GDP per capita and literacy rates.
+
+2. **Challenges Remain:**  
+   - Deep regional disparities persist, particularly in Sub-Saharan Africa and fragile states.
+   - Vulnerable populations face compounded risks without adequate sanitation.
+
+3. **Success Stories:**  
+   - Countries like Vietnam, Morocco, and Thailand showcase best practices worth replicating.
+
+## Recommendations
+
+### Policy Recommendations
+- **Prioritize Investment:**  
+  Direct resources toward low-access countries and regions.
+
+- **Tailor Strategies:**  
+  Design region-specific interventions acknowledging cultural, economic, and geographical differences.
+
+- **Strengthen Resilience:**  
+  Develop programs that can sustain progress even during global crises (e.g., pandemics, conflicts).
+
+### Implementation Suggestions
+- **Leverage Technology:**  
+  Use mobile-based monitoring to track sanitation improvements at community levels.
+
+- **Scale Best Practices:**  
+  Document and replicate successful models from high-performing countries.
+
+- **Integrate Education Campaigns:**  
+  Promote sanitation through public health education alongside infrastructure development.
+
+### Future Directions
+- **Enhance Data Quality:**  
+  Expand and improve real-time data collection on sanitation at national and sub-national levels.
+
+- **Model Predictive Trends:**  
+  Employ machine learning models to forecast sanitation trends and target interventions.
+
+- **Foster Global Collaboration:**  
+  Strengthen partnerships between governments, international organizations, and private sectors.
+
+---
+
+# References
+
+1. UNICEF Global Sanitation Database, 2024
+2. WHO Progress on Sanitation and Drinking Water Reports
+3. UN Sustainable Development Goals (SDG 6)
+4. World Bank Global Development Indicators
